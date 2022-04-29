@@ -1,0 +1,16 @@
+#proditstyle{
+  background-image: linear-gradient(to top, #fdcbf1 0%, #fdcbf1 1%, #e6dee9 100%);
+  border-style: hidden;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 20px 2px;
+}
+#viewbutton{
+  border-style: initial;
+  border-color: rgba(205, 214, 219, 0.8);
+  color: black;
+}
+#addbutton{
+  border-style:outset;
+  margin-left: 5px;
+}
