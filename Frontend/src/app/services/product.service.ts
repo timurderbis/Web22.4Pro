@@ -10,10 +10,10 @@ import { Product } from 'src/app/models/product';
   providedIn: 'root'
 })
 export class ProductService {
-
+  api_link: string ="http://127.0.0.1:8000/"
   constructor(private http: HttpClient) { }
 
-  getProducts(): Observable<Product[]>{
-    return this.http.get<Product[]>(productsUrl);
+  getProducts(){
+    return this.http.get(this.api_link + 'shop/');
   }
 }

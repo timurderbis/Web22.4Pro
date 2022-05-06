@@ -18,6 +18,13 @@ import { ProductItemComponent } from './components/shopping-cart/product-list/pr
 import { LoginComponent } from './components/login/login.component';
 import { RegisterComponent } from './components/register/register.component';
 import { PageNotFoundComponent } from './components/shared/page-not-found/page-not-found.component';
+import { CategoriesComponent } from './components/shopping-cart/categories/categories.component';
+import { CatsComponent } from './components/shopping-cart/categories/cats/cats.component';
+import { DogsComponent } from './components/shopping-cart/categories/dogs/dogs.component';
+import { BirdsComponent } from './components/shopping-cart/categories/birds/birds.component';
+import { PeopleComponent } from './components/shopping-cart/categories/people/people.component';
+import { MonkeysComponent } from './components/shopping-cart/categories/monkeys/monkeys.component';
+import { SupportComponent } from './components/support/support.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +40,14 @@ import { PageNotFoundComponent } from './components/shared/page-not-found/page-n
     ProductItemComponent,
     LoginComponent,
     RegisterComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    CategoriesComponent,
+    CatsComponent,
+    DogsComponent,
+    BirdsComponent,
+    PeopleComponent,
+    MonkeysComponent,
+    SupportComponent
   ],
   imports: [
     BrowserModule,

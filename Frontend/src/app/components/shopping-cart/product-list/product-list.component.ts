@@ -11,7 +11,6 @@ import { WishlistService } from 'src/app/services/wishlist.service';
 })
 export class ProductListComponent implements OnInit {
 
-  productList: Product[] = []
   wishlist: number[] = []
 
   constructor(
@@ -26,7 +25,6 @@ export class ProductListComponent implements OnInit {
 
   loadProducts() {
     this.productService.getProducts().subscribe((products) => {
-      this.productList = products;
     })
   }
 
